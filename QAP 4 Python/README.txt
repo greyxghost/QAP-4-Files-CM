@@ -4,14 +4,6 @@
 
 OneStepInsurance.py is a program designed for the One Stop Insurance Company to facilitate the entry and calculation of new insurance policy information for clients. The program performs various calculations, manages client data, and generates formatted outputs.
 
-## Author
-
-Chris M
-
-## Date(s)
-
-July 18 - 22, 2024
-
 ## Features
 
 - Reads and sets various constants from a configuration file (`Const.dat`).
@@ -43,20 +35,6 @@ The program uses the following constants, read from `Const.dat`:
 7. `HST_RATE`: HST rate.
 8. `PROCESSING_FEE`: Processing fee.
 
-## Functions
-
-### `first_payment_date()`
-
-Calculates and returns the first payment date based on the current date.
-
-### `progress_bar(iteration, total, prefix='', suffix='', length=30, fill='█')`
-
-Generates and displays a progress bar with percentage completion.
-
-### `address_formatting()`
-
-Formats and returns the client address for display.
-
 ## Usage
 
 1. Ensure `Const.dat` and `FormatLibrary` are present in the working directory.
@@ -70,9 +48,3 @@ Formats and returns the client address for display.
 - `OneStepInsurance.py`: Main program file.
 - `Const.dat`: Configuration file containing constants.
 - `ClaimInformation.dat`: File to save claim information.
-
-## Notes
-
-- The program assumes `FormatLibrary` is a custom module for formatting-related functions.
-- Ensure all required modules and files are in the working directory before running the program.
-  
